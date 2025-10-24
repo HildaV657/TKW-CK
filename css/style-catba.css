@@ -1,0 +1,76 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfdfd;
+}
+btn-gradient{
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 25px;
+}
+.btn-gradient:hover{ 
+    opacity: 0.9; 
+}
+.price{ 
+    font-size: 26px; 
+    font-weight: 600; 
+    color: #4F1C6B; 
+}
+.old-price{ 
+    text-decoration: line-through; 
+    color: gray; 
+}
+.discount-tag{
+    background-color: #fce4ec;
+    color: #c2185b;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.tour-info{
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    padding: 20px;
+}
+.section-title{
+    background-color: #013668;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+}
+.tour-info .line{
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+img{
+    width: 850px;
+    border-radius: 20px;
+}
+td,th{
+    text-align: center;
+}
+.day1, .day2{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+.vertical-line{
+    border-left: #4F1C6B;
+    border-style: dashed;
+    padding: 20px;
+    border-bottom: hidden;
+    border-top: hidden;
+    border-right: hidden;
+}
+.day-tag{
+    background-color: #4F1C6B;
+    align-self: start;
+    border-radius: 10px;
+    color: white;
+    place-items: center;
+}
+h2{
+    color: #4F1C6B;
+}
