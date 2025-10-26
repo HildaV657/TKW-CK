@@ -1,48 +1,85 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chi tiết tour du lịch Cát Bà</title>
+    <title>Du lịch Cát Bà</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/style-catba.css">
+    <link rel="stylesheet" href="../css/style-tours.css">
 </head>
 <body>
-
+    <header>
+        <section class="wrapper_header menu">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            TOUR TRONG NƯỚC
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">THÔNG TIN DU LỊCH</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
 <div class="container my-5">
-    <div class="row g-4 align-items-center">
-        <div class="col-md-8">
-            <img src="img/catba1.jpg">
+    <div class="tour-view">
+        <div class="slideshow">
+            <img src="../img/catba1.jpg" class="slide active">
+            <img src="../img/catba2.jpg" class="slide">
+            <img src="../img/catba3.jpg" class="slide">
         </div>
-        <div class="col-md-4">
+        <div>
             <div class="tour-info">
                 <h3>Tour du lịch Cát Bà 2 ngày 1 đêm</h3>
                 <p class="text-warning mb-1">
                     <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> (343 lượt đánh giá)
                 </p>
-                    <div><i class="bi bi-geo-alt"></i> Xuất phát: Hà Nội</div>
-                    <div><i class="bi bi-flag"></i> Điểm đến: Cát Bà</div>
+                    <div><i class="bi bi-geo-alt icon-tim"></i> Xuất phát: Tp. Hồ Chí Minh</div>
+                    <div><i class="bi bi-flag icon-tim"></i> Điểm đến: Cát Bà</div>
                 <div class="line">
-                    <div class="left"><i class="bi bi-clock"></i> Thời gian:</div>
+                    <div class="left"><i class="bi bi-clock icon-tim"></i> Thời gian:</div>
                     <div class="right">2 ngày 1 đêm</div>
                 </div>
                 <div class="line">
-                    <div class="left"><i class="bi bi-airplane"></i> Phương tiện:</div>
-                    <div class="right"><i class="material-icons">flight</i> <i class="material-icons">directions_boat</i></div>
+                    <div class="left"><i class="bi bi-airplane icon-tim"></i> Phương tiện:</div>
+                    <div class="right"><i class="material-icons icon-tim">flight</i> <i class="material-icons icon-tim">directions_boat</i></div>
                 </div>
                 <div class="my-3">
-                    <span class="price">2.000.000đ</span><br>
-                    <span class="old-price">4.000.000đ</span> 
+                    <span class="price">3.200.000đ</span><br>
+                    <span class="old-price">6.400.000đ</span> 
                     <span class="discount-tag ms-2">-50%</span>
+                </div>
+                <div class="d-flex justify-content-between mt-3 mb-3">
+                    <div class="gradient-btn p-2 rounded text-center flex-fill">
+                        ĐẶT NGAY
+                    </div>
                 </div>
                 <div class="d-flex justify-content-between">
                     <div class="bg-light p-2 rounded text-center flex-fill me-3">
-                        <i class="bi bi-headset"></i> CSKH 24/7<br>080834508
+                        <i class="bi bi-headset icon-tim"></i> CSKH 24/7<br>080834508
                     </div>
                     <div class="bg-light p-2 rounded text-center flex-fill">
-                        <i class="bi bi-envelope"></i><br>Email hỗ trợ
+                        <i class="bi bi-envelope icon-tim"></i><br>Email hỗ trợ
                     </div>
                 </div>
             </div>
@@ -64,27 +101,32 @@
                 <tr>
                     <td>04/11/2025</td>
                     <td>Vietravel Airlines</td>
-                    <td>2.000.000đ</td>
-                    <td>1.500.000đ</td>
+                    <td>3.200.000đ</td>
+                    <td>2.600.000đ</td>
                     <td>Liên hệ</td>
                 </tr>
                 <tr>
                     <td>15/12/2025</td>
                     <td>Vietravel Airlines</td>
-                    <td>2.000.000đ</td>
-                    <td>1.500.000đ</td>
+                    <td>3.200.000đ</td>
+                    <td>2.600.000đ</td>
                     <td>Liên hệ</td>
                 </tr>
             </tbody>
         </table>
     </div>
     <div class="mt-5">
+        <div class="plan-preview">
+            <p>Tour Cát Bà 2 ngày 1 đêm đưa quý khách tới một khung cảnh nên thơ trữ tình bậc nhất tại Miền Bắc. Đảo ngọc Cát Bà với bờ cát trắng mịn của bãi biển Tùng Thu, bãi Cát Cò… Những món ăn ẩm thực ngon lành của vùng biển Hải Phòng tươi sống. Khung cảnh kì vĩ của mảnh đất biển đảo Việt Nam chắc chắn sẽ không làm các bạn thất vọng. Cùng L'Hospital Travel khám phá nơi đây qua qua du lịch Cát Bà 2 ngày 1 đêm thôi nào.</p>
+        </div>
+    </div>
+    <div class="mt-4">
     <div class="plan-tour">
         <div class="section-title"><b>Lịch trình tour</b></div>
-        <div class="day1">
+        <div class="day">
             <div class="day-tag mt-4 me-3"><h4>Ngày 1</h4></div>
             <div class="vertical-line">
-                <h2 class="mt-2">Ngày 1 HÀ NỘI - CÁT BÀ ( ĂN: SÁNG / TRƯA / TỐI)</h2>
+                <h2 class="mt-2">Ngày 1 TP. HỒ CHÍ MINH - CÁT BÀ (ĂN: SÁNG / TRƯA / TỐI)</h2>
                 <p><b>07h30:</b> Xe đón Quý khách tại các khách sạn trung tâm phố Cổ và Nhà hát lớn Hà Nội khởi hành đi Cát Bà theo hướng cao tốc Hà Nội – Hải Phòng sau đó băng qua cầu Cầu Tân Vũ – Lạch Huyện là cây cầu vượt biển dài nhất Việt Nam nối Đình Vũ với huyện đảo Cát Hải của thành phố Hải Phòng.</p>
                 <p><i>Lưu ý:</i> Vào các ngày cuối tuần có thể thời gian khởi hành có thể sẽ được sắp xếp sớm hơn bình thường. Quý khách vui lòng có mặt tại điểm hẹn theo thông tin hướng dẫn viên thông báo từ chiều ngày hôm trước.</p>
                 <p><b>11h30:</b> Đến với đảo Cát Bà, Quý khách ăn trưa sau đó nhận phòng khách sạn, nghỉ ngơi.</p>
@@ -92,10 +134,10 @@
                 <p><b>18h30:</b> Ăn tối. Buổi tối tự do khám phá thị trấn Cát Bà, đi chơi Chợ đêm… Nghỉ đêm tại Cát Bà.</p>
             </div>
         </div>
-        <div class="day1">
+        <div class="day">
             <div class="day-tag mt-4 me-3"><h4>Ngày 2</h4></div>
             <div class="vertical-line">
-                <h2>Ngày 2 CÁT BÀ - VỊNH LAN HẠ - LÀNG VỆT HẢI - KAYAKING - HÀ NỘI (ĂN SÁNG / TRƯA / TỐI)</h2>
+                <h2>Ngày 2 CÁT BÀ - VỊNH LAN HẠ - LÀNG VỆT HẢI - KAYAKING - TP. HỒ CHÍ MINH (ĂN SÁNG / TRƯA / - - )</h2>
                 <p><b>05h00:</b> Nếu có thể, Quý khách nên dậy sớm đi bộ hoặc tự do kêu xe điện (hoặc xe ôm) đưa Quý khách lên thăm “Pháo đài thần công” tại đây Quý khách có thể phóng tầm mắt ra toàn bộ khu vực các hòn đảo xung quanh bằng mắt thường hoặc qua lăng kính của ống kính viễn vọng đặt tại đây. Sau khi ngắm bình minh trên biển, Quý khách có thể ngồi nhâm chi tách cafe buổi sáng trong không gian tươi mát của một vùng đảo ngọc.</p>
                 <p><b>7h00:</b> Quý khách ăn sáng tại khách sạn sau đó trả phòng, để đồ ở lễ tân.</p>
                 <p><b>8h00:</b> Xe đón quý khách tại khách sạn khởi hành ra bến Bèo.</p>
@@ -111,5 +153,6 @@
     </div>
     </div>
 </div>
+<script src="../js/script-tours.js"></script>
 </body>
 </html>
