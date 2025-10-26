@@ -1,0 +1,237 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfdfd;
+}
+btn-gradient{
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 25px;
+}
+.price{ 
+    font-size: 26px; 
+    font-weight: 600; 
+    color: #4F1C6B; 
+}
+.old-price{ 
+    text-decoration: line-through; 
+    color: gray; 
+}
+.discount-tag{
+    background-color: #fce4ec;
+    color: #c2185b;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.tour-info{
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    padding: 20px;
+}
+.section-title{
+    background-image: linear-gradient(to right, #4F1C6B, #013668);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+}
+.tour-info .line{
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+td,th{
+    text-align: center;
+}
+.day{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+.vertical-line{
+    border-left: #4F1C6B;
+    border-style: dashed;
+    padding: 20px;
+    border-bottom: hidden;
+    border-top: hidden;
+    border-right: hidden;
+}
+.day-tag{
+    background-color: #4F1C6B;
+    align-self: start;
+    border-radius: 10px;
+    color: white;
+    place-items: center;
+}
+h2{
+    color: #4F1C6B;
+}
+.slogan img{
+    border-radius: 0px;
+}
+.tour-view{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    align-items: center;
+}
+.plan-preview{
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    padding-bottom: 8px;
+    padding-top: 20px;
+    text-indent: 30px;
+}
+.slideshow{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.slide{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.slide.active{
+    opacity: 1;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Calibri;
+}
+.wrapper_header nav{
+    text-align: center;
+}
+.nav-link{
+    font-weight: 600;
+    color: var(--dark-color) !important;
+    padding: 20px 15px !important; 
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+.nav-link:hover, .nav-item:nth-child(2) .nav-link { 
+    color: var(--primary-color) !important;
+}
+.icon-tim{
+    color: #4F1C6B !important;
+}
+.gradient-btn{
+    background-image: linear-gradient(to right, #4F1C6B, #651C90, #945EBD, #AA83CF, #BF79BC, #CB64A3);
+    color: white;
+    font-size: 20px;
+}
+.icon{
+    text-align: right;
+    padding: 10px;
+    margin-right: 10px;
+}
+footer{
+    background: #f9f9fb;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 15px 0;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+}
+.footer-logo img{
+    width: 120px;
+}
+.footer-info i{
+    margin-right: 8px;
+    color: #4F1C6B;
+}
+.footer-links h4,
+.footer-info h4,
+.footer-subscribe h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #000;
+}
+.footer-links ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-links ul li{
+    margin-bottom: 6px;
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.footer-links ul li a:hover{
+    color: #4F1C6B;
+}
+.footer-subscribe input{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+.footer-subscribe button{
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background: #4F1C6B;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.footer-subscribe button:hover{
+    background: #4F1C6B;
+}
+.footer-bottom{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+.footer-pay img{
+    height: 25px;
+    margin-left: 5px;
+}
+.footer-social .social-icons a{
+    color: #333;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.footer-social .social-icons a:hover{
+    color: #4F1C6B;
+}
+.banner img {
+    width: 100%;
+    display: block;
+}
+header{
+    background: #f9f9fb;
+    color: #4F1C6B ;
+    padding: 15px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
