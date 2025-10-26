@@ -1,0 +1,179 @@
+body {
+    font-family: Times;
+}
+/* ======================================= */
+/*               1. HEADER & MENU           */
+/* ======================================= */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Calibri;
+}
+.wrapper_header nav {
+  text-align: center;
+}
+.nav-link {
+    font-weight: 600;
+    color: var(--dark-color) !important;
+    padding: 20px 15px !important; 
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+.nav-link:hover, .nav-item:nth-child(2) .nav-link { 
+    color: var(--primary-color) !important;
+}
+
+
+/* ======================================= */
+/*               2. BANNER MAIN             */
+/* ======================================= */
+.banner_main {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner_main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6); /* Làm mờ ảnh nền */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.title_banner_main {
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+.title_banner_main h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* ======================================= */
+/*             3. TIÊU ĐỀ CHUNG & BUTTON     */
+/* ======================================= */
+.container{
+    text-align: center;
+}
+h3 {
+    color: #62316f;
+}
+.wrap-item {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxx {
+    margin-top:50px;
+    display: inline-block;
+    padding: 14px 40px;
+    background: white;
+    border-radius: 50px;
+    color: #593270;
+    font-size: 15px;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.text-center {
+    margin-top:50px;
+    margin-bottom:50px;
+    display: inline-block;
+    padding: 14px 40px;
+    background: linear-gradient(-45deg, #df4781, #b18fd5, #70209f, #481267, #471267);
+    border-radius: 50px;
+    color:white;
+    font-size: 25px;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.text {
+    color: gray;
+    font-size: 18px;
+}
+.text-why {
+    color: gray;
+    text-align: left;
+
+}
+.box {
+    text-align: center;
+}
+.travel_uss{
+    text-decoration: none;
+    color: white;
+}
+.travel_uss:hover {
+    /* Đảo ngược màu khi hover */
+    background-color: var(--primary-color);
+    color: white;
+}
+/* ======================================= */
+/*               4. KHU VỰC CHUNG (meetOurTeam) */
+/* ======================================= */
+.position {
+    color: gray;
+}
+.meetOurTeam {
+    background-image: url('/Tourdulich/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #faf7faf4;
+    padding: 50px 0; 
+}
+
+.meetOurTeam .title_meet {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.meetOurTeam .row {
+    --bs-gutter-x: 30px;
+    --bs-gutter-y: 30px; 
+}
+
+/* ======================================= */
+/*               5. TỪNG BOX (wrapper) */
+/* ======================================= */
+.meetOurTeam .wrapper {
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+    border-radius: 8px;
+    margin-bottom: 0; 
+}
+.meetOurTeam .text_tieusu {
+    padding: 30px; 
+}
+.meetOurTeam .text_tieusu h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: rgb(254, 252, 254);
+}
+
+/* Định dạng Vị trí */
+.meetOurTeam .text_tieusu .position {
+    display: block;
+    font-size: 1rem;
+    color: #2c2d2f; 
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Định dạng Đoạn Văn */
+.meetOurTeam .text_tieusu p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: gray;
+    margin-bottom: 0;
+    text-align: left;
+}
+/* ======================================= */
+/*               6. FOOTER
+/* ======================================= */
