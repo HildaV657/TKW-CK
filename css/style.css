@@ -6,16 +6,13 @@
 }
 .banner img {
   width: 100%;
-  display: block; /* tránh khoảng trắng dưới ảnh */
+  display: block;
 }
-
-
 header {
   background: white;
   color:#4F1C6B ;
   padding: 15px 0;
 }
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -23,13 +20,11 @@ header {
   width: 90%;
   margin: auto;
 }
-
 .nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
 }
-
 .nav-links a {
   color: black;
   text-decoration: none;
@@ -119,7 +114,7 @@ footer {
       font-family: "Segoe UI", Arial, sans-serif;
       color: #333;
       padding: 50px 0 20px;
-      border-top: 3px solid #6c63ff;
+      border-top: 3px solid #4F1C6B;
     }
 
     .footer-container {
@@ -157,7 +152,7 @@ footer {
     }
 
     .footer-info i {
-      color: #6c63ff;
+      color: #4F1C6B;
       margin-right: 8px;
     }
 
@@ -194,8 +189,6 @@ footer {
     .footer-pay img:hover {
       transform: scale(1.1);
     }
-
-    /* --- Mạng xã hội --- */
     .icon {
       text-align: right;
       padding: 10px;
@@ -212,17 +205,15 @@ footer {
     .icon i {
       font-size: 20px;
       margin: 0 6px;
-      color: #6c63ff;
+      color: #4F1C6B;
       cursor: pointer;
       transition: color 0.3s, transform 0.3s;
     }
 
     .icon i:hover {
-      color: #4b47d3;
+      color: #4F1C6B;
       transform: translateY(-3px);
     }
-
-    /* --- Responsive --- */
     @media (max-width: 768px) {
       .footer-container {
         text-align: center;
