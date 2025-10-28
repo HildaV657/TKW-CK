@@ -304,7 +304,6 @@ footer {
       margin-right: 8px;
     }
 
-    /* --- Footer bottom --- */
     .footer-bottom {
       display: flex;
       flex-wrap: wrap;
@@ -338,7 +337,6 @@ footer {
       transform: scale(1.1);
     }
 
-    /* --- Mạng xã hội --- */
     .icon {
       text-align: right;
       padding: 10px;
@@ -417,4 +415,5 @@ footer {
     .layout {
         padding: 12px;
     }
+
 }
