@@ -1,6 +1,5 @@
-/* ======================================= */
-/*               1. HEADER & MENU           */
-/* ======================================= */
+
+
 * {
   margin: 0;
   padding: 0;
@@ -38,9 +37,7 @@ header {
 }
 
 
-/* ======================================= */
-/*               2. BANNER MAIN             */
-/* ======================================= */
+
 .banner_main {
     position: relative;
     height: 300px;
@@ -54,7 +51,7 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(0.6); /* Làm mờ ảnh nền */
+    filter: brightness(0.6);
     position: absolute;
     top: 0;
     left: 0;
@@ -70,9 +67,8 @@ header {
     text-transform: uppercase;
 }
 
-/* ======================================= */
-/*             3. TIÊU ĐỀ CHUNG & BUTTON     */
-/* ======================================= */
+
+
 .container{
     text-align: center;
 }
@@ -127,9 +123,8 @@ h3 {
     background-color: var(--primary-color);
     color: white;
 }
-/* ======================================= */
-/*               4. KHU VỰC CHUNG (meetOurTeam) */
-/* ======================================= */
+
+
 .position {
     color: gray;
 }
@@ -150,9 +145,8 @@ h3 {
     --bs-gutter-y: 30px; 
 }
 
-/* ======================================= */
-/*               5. TỪNG BOX (wrapper) */
-/* ======================================= */
+
+
 .meetOurTeam .wrapper {
     height: 100%;
     background-color: white;
@@ -169,7 +163,7 @@ h3 {
     background: rgb(254, 252, 254);
 }
 
-/* Định dạng Vị trí */
+
 .meetOurTeam .text_tieusu .position {
     display: block;
     font-size: 1rem;
@@ -178,7 +172,7 @@ h3 {
     margin-bottom: 15px;
 }
 
-/* Định dạng Đoạn Văn */
+
 .meetOurTeam .text_tieusu p {
     font-size: 18px;
     line-height: 1.6;
@@ -186,9 +180,8 @@ h3 {
     margin-bottom: 0;
     text-align: left;
 }
-/* ======================================= */
-/*               6. FOOTER
-/* ======================================= */
+
+
 footer {
       background: linear-gradient(135deg, #f9f9fb, #eef0ff);
       font-family: "Segoe UI", Arial, sans-serif;
@@ -236,7 +229,7 @@ footer {
       margin-right: 8px;
     }
 
-    /* --- Footer bottom --- */
+    
     .footer-bottom {
       display: flex;
       flex-wrap: wrap;
@@ -297,7 +290,7 @@ footer {
       transform: translateY(-3px);
     }
 
-    /* --- Responsive --- */
+    
     @media (max-width: 768px) {
       .footer-container {
         text-align: center;
@@ -313,4 +306,5 @@ footer {
         flex-direction: column;
         gap: 10px;
       }
+
     }
